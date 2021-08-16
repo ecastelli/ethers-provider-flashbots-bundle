@@ -11,7 +11,7 @@
   "scripts": {
     "demo": "npx ts-node --project tsconfig.json src/demo.ts",
     "build": "npx tsc",
-    "clean": "rm -rf build/",
+    "clean": "if exist c:\\flashbots\\flash\\build1 rmdir c:\\flashbots\\flash\\build1 /q /s",
     "prepare": "npm run clean && npm run build",
     "lint": "npx eslint src"
   },
